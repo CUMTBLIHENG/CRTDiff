@@ -24,26 +24,12 @@ This repository provides the implementation of **CRTDiff**, a conditional diffus
 | `generate_samples.py` | Sampling from trained model |
 | `config.py` | Configuration of hyperparameters and paths |
 
-## 🧪 Usage
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Train the model
-```bash
-python train_crtdiff.py
-```
-
-### 3. Generate data
-```bash
-python generate_samples.py
 ```
 
 ## 📄 Dataset
 
-The default dataset is `原始数据PPV.xlsx`. You may replace it with your own structured blasting dataset, formatted as columns `X1 ~ X11 + PPV`.
+The default dataset is `origina data.xlsx`. You may replace it with your own structured blasting dataset, formatted as columns `X1 ~ X11 + PPV`.
 
 ## 📜 License
 
