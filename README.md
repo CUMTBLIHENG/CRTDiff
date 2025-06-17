@@ -1,3 +1,7 @@
+
+![image](https://github.com/user-attachments/assets/74fff889-afe8-421f-a320-326563e318b2)
+
+
 # CRTDiff: Conditional Diffusion for PPV Prediction
 
 This repository provides the implementation of **CRTDiff**, a conditional diffusion-based data generation method designed for enhancing peak particle velocity (PPV) prediction in open-pit blasting scenarios.
