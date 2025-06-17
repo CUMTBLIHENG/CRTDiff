@@ -1,2 +1,46 @@
-# CRTDiff
-A conditional diffusion model for data augmentation to enhance machine learning prediction of PPV in open-pit mining
+# CRTDiff: Conditional Diffusion for PPV Prediction
+
+This repository provides the implementation of **CRTDiff**, a conditional diffusion-based data generation method designed for enhancing peak particle velocity (PPV) prediction in open-pit blasting scenarios.
+
+## 📌 Features
+
+- Conditional diffusion sampling based on DDPM
+- Handles mixed discrete-continuous variables
+- Residual network with sinusoidal time embedding
+- Data augmentation for supervised ML models (e.g., ANN, SVR, XGBoost)
+- SHAP-ready feature interpretability
+
+## 🗂️ Project Structure
+
+| File | Description |
+|------|-------------|
+| `train_crtdiff.py` | Main training loop with loss tracking |
+| `model.py` | Model architecture (ResNet + Time Embedding) |
+| `data_utils.py` | Data loading, encoding, normalization |
+| `generate_samples.py` | Sampling from trained model |
+| `config.py` | Configuration of hyperparameters and paths |
+
+## 🧪 Usage
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Train the model
+```bash
+python train_crtdiff.py
+```
+
+### 3. Generate data
+```bash
+python generate_samples.py
+```
+
+## 📄 Dataset
+
+The default dataset is `原始数据PPV.xlsx`. You may replace it with your own structured blasting dataset, formatted as columns `X1 ~ X11 + PPV`.
+
+## 📜 License
+
+MIT License © 2024
