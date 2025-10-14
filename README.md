@@ -1,5 +1,4 @@
 
-![image](https://github.com/user-attachments/assets/74fff889-afe8-421f-a320-326563e318b2)
 
 
 # CRTDiff: Conditional Diffusion for PPV Prediction
