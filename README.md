@@ -32,4 +32,13 @@ The default dataset is `origina data.xlsx`. You may replace it with your own str
 
 ## 📜 License
 
+📚 Citation
+
+If you find this work helpful in your research, please consider citing the following paper:
+
+Li, H., Xie, B., Li, X. et al.
+CRTDiff: A Conditional Residual Temporal Diffusion Model for Data Augmentation to Enhance Machine Learning Prediction of PPV in Open-Pit Mining.
+Rock Mechanics and Rock Engineering (2025).
+https://doi.org/10.1007/s00603-025-05002-9
+
 MIT License © 2024
